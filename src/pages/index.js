@@ -1,5 +1,6 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import * as React from "react";
+import { Router } from "@reach/router";
+import Home from "../pages/home";
 import Header from "../components/Header/Header";
 import Info from "../components/Info/Info";
 import Contact from "../components/Contact/Contact";
@@ -11,10 +12,10 @@ const IndexPage = () => {
       
       <title>Home Page</title>
     
-      <Header/>
-      
-     <Info/>
-     <Contact/>
+      {/* <Header/> */}
+      <Router>
+    <Home path="/"/>
+     </Router>
     
    
       {/* <Link to="/home/">Contact</Link> */}
