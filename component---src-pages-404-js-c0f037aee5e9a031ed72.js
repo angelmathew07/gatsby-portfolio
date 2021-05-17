@@ -1,0 +1,2 @@
+(self.webpackChunkmy_gatsby_site=self.webpackChunkmy_gatsby_site||[]).push([[883],{9616:function(n,e,t){"use strict";t.r(e);t(7294),t(5444);e.default=function(){return"undefined"!=typeof window&&(window.location="/"),null}}}]);
+//# sourceMappingURL=component---src-pages-404-js-c0f037aee5e9a031ed72.js.map
