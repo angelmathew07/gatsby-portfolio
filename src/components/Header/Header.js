@@ -18,7 +18,7 @@ const Header=()=>{
               currentPath === "/"
                 ? styles.navLink + " " + styles.selected
                 : styles.navLink
-            }>About</a></li>
+            }>Abouts</a></li>
             <li className={styles.navLink}>
                 <button onClick={()=>scrollToBottom()}>Contact</button></li>
         </ul>
