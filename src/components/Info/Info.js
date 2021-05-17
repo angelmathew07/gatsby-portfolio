@@ -11,20 +11,19 @@ import "aos/dist/aos.css";
 const Info=()=>{
     useEffect(() => {
         AOS.init({
-        duration:'3000',
-        disable:'mobile'
+        duration:'3000'
         });
         // AOS.refresh();
       }, []);
     return(
         <>
-            <div className={styles.info}  data-aos="fade">
+            <div className={styles.info}  data-aos="fade-in">
                 <div className={styles.infoSummary}>
                     <h4>Hi there <div className={styles.wave}>👋</div> ! my name is </h4>
                     <h1>Angel  Anna Mathew</h1>
                     <br></br>
                     <p>
-                    I’m a  Toronto based front-end developer, who is keen on building smooth  UI/UX. I rely on Angular/React to develop responsive performant and accessible web apps. I currently work at Bell Canada. 
+                    I’m a  Toronto based front-end developer, who is keen on building smooth  UI/UX. I work with Angular/React to develop responsive, performant, and accessible web apps. Currently, I work at Bell Canada. 
                     </p>
                     <br></br>
                     <Button/>
